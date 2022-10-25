@@ -1,0 +1,36 @@
+.blog{
+    margin-top: 800px;
+    text-align: center;
+     overflow: hidden;
+  }
+  .empty{
+      width: 50%;
+      margin: auto;
+  }
+  .blog-item{
+      width: 30%;
+      float: left;
+      margin-left: 20px;
+  }
+  .blog-item .lo{
+      width: 100%;
+      
+  }
+  .blog-item .tel{
+      border-radius: 50%;
+      margin:-50px 200px 0px 0px ;
+      padding-bottom:10px ;
+      position: relative;
+      
+  }
+  .blog-desc{
+      width: 90%;
+  }
+  .blog-desc .desc{
+      padding-bottom: 20px;
+  }
+  
+  .blog-item .lo :hover .blog-item .tel{
+      z-index: 2;
+  }
+  

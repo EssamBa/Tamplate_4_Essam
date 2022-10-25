@@ -1,0 +1,86 @@
+.login{
+   overflow: hidden; 
+    
+}
+
+.login-img{
+    width: 100%;
+    
+    float: left;
+    background-repeat: no-repeat;
+    height: 20vh;
+    
+    background: url(https://i.imgur.com/0vJogt3.jpg); 
+}
+.login-list{
+    text-transform: capitalize;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 2px 3px 12px 1px rgb(0 0 0 / 15%);
+    
+}
+.login-list li {
+    display: inline;
+    font-size: 18px;
+    color:var(--gray);
+}
+.login-list li+li:before {
+    padding: 8px;
+    content: "/\00a0";
+  }
+  .login-list li a{
+    color: var(--red);
+  }
+
+  .login-window{
+    text-align: center;
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    padding: 20px 20px;
+    border: solid 1px var(--gray);
+    top: 50px;
+    margin: 35px auto 35px auto;
+    font-size: 18px;
+  }
+
+  .login-window .mini-title{
+    color: var(--dark);
+    font-size: 20px;
+  }
+
+  .login-window a{
+    color: var(--dark);
+  }
+ .login-window input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  .login-window p{
+    margin-bottom: 15px;
+  }
+  .login-window form label{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+  }
+  .login-submit{
+    background: #ff3f34; 
+    cursor: pointer;
+    border: solid 1px #ff3f34;
+    font-size: 18px;
+    color: var(--light);
+  }
+  .sub-btn{
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    background: #ff3f34;
+    border: solid 1px #ff3f34;
+    color: var(--light);
+    font-size: 18px;
+    cursor: pointer;
+}
+
